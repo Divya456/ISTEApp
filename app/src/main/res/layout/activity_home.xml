@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.divi.sig.Home"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+
+        android:layout_gravity="center"
+        android:id="@+id/img"
+        android:src="@drawable/op"
+        />
+<!--android:src="@drawable/logo"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+    <Button
+        android:text="SIGs"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="100dp"
+        android:onClick="openSig"
+        android:layout_marginRight="6dp"
+        android:id="@+id/sig_but"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/img"
+        android:textSize="20dp"
+        android:background="@drawable/home_but"
+        android:gravity="center"/>
+       <!-- android:background="@android:color/holo_blue_light"-->
+
+
+
+    <Button android:text="SI"
+
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="100dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/si"
+        android:background="@drawable/si_but"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/img"/>
+        <!--android:background="@android:color/secondary_text_light"-->
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button android:text="BLOG"
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_below="@id/sig_but"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/blog_but"/>
+            <!--android:background="#a0a"-->
+            <Button android:text="EVENTS"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="100dp"
+                android:layout_below="@id/sig_but"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="@drawable/event_but"
+                />
+            <!--android:background="#fb0"-->
+        </LinearLayout>
+
+
+
+</LinearLayout>
