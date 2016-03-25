@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/parch"
+    tools:context="com.example.divi.sig.Blog"
+    android:touchscreenBlocksFocus="true">
+
+    <TextView android:text="THE BLOG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/heading"
+        android:textColor="@android:color/background_dark" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/article"
+        android:layout_below="@id/heading"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/img"
+        android:layout_marginTop="10dp"/>
+    <TextView android:text="It is an outlet where thoughts and ideas are displayed in prose."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img"
+        android:textSize="23dp"
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/text"
+        android:textColor="@android:color/black" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Click this link to see blog!"
+        android:layout_below="@id/text"
+        android:id="@+id/link_but"
+        android:onClick="buttonListen"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"/>
+
+</RelativeLayout>

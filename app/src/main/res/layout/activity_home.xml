@@ -10,12 +10,12 @@
 
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="280dp"
         android:layout_height="280dp"
 
         android:layout_gravity="center"
         android:id="@+id/img"
-        android:src="@drawable/op"
+        android:src="@drawable/ic_logo"
         />
 <!--android:src="@drawable/logo"-->
     <LinearLayout
@@ -30,7 +30,7 @@
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="100dp"
-        android:onClick="openSig"
+        android:onClick="buttonListen"
         android:layout_marginRight="6dp"
         android:id="@+id/sig_but"
         android:layout_marginBottom="5dp"
@@ -71,19 +71,23 @@
                 android:layout_height="100dp"
                 android:gravity="center"
                 android:textSize="20dp"
+                android:id="@+id/blog_but"
                 android:layout_marginRight="6dp"
+                android:onClick="buttonListen"
                 android:background="@drawable/blog_but"/>
             <!--android:background="#a0a"-->
             <Button android:text="EVENTS"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="100dp"
+                android:id="@+id/event_but"
                 android:layout_below="@id/sig_but"
                 android:gravity="center"
                 android:textSize="20dp"
-                android:background="@drawable/event_but"
+                android:background="@drawable/event_edit"
+                android:onClick="buttonListen"
                 />
-            <!--android:background="#fb0"-->
+
         </LinearLayout>
 
 

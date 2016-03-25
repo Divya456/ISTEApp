@@ -1,0 +1,240 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.divi.sig.Events"
+    android:orientation="vertical">
+
+    <!-- <TextView android:text="EVENTS"
+ android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/event"
+         android:textSize="30dp"/>-->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <!--transcend-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/transcend"
+                    /><!-- android:src="@drawable/transcend"-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ISTE's weeklong fest,conducted for first years in the odd semester.Includes a class wise competition with an industrial trip up for grabs!Also includes a hands-on tronix competition,and a plethora of events for students of all branches."
+                    android:id="@+id/trans"
+                    />
+
+            </LinearLayout>
+            <!--SY-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/sy"
+                    /><!--android:src="@drawable/sy"-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="The annual cross campus treasure hunt designed for freshers' to get to know their new campus,and for us to have little fun!This event boasts of largest participation in campus,with over 500 participants in 2015!"
+                    android:id="@+id/sy"
+                    android:layout_marginTop="20dp"
+
+                    />
+            </LinearLayout>
+            <!--Cryptonite-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/cryptonite"
+                    /><!--android:src="@drawable/cryptonite"-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="An event in which teams solve coding based questions in a limited time frame.It tests the contestants in every field of computer science"
+                    android:id="@+id/cr"
+                    android:layout_marginTop="20dp"
+
+                    />
+            </LinearLayout>
+            <!--Serial coder-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/serial_coder"
+                    /><!-- android:src="@drawable/serial_coder"-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3 hour long coding competition in which NITK students compete with each other and with the international coders to win the ultimate glory of being a super coder."
+                    android:id="@+id/ser"
+                    android:layout_marginTop="20dp"
+
+                    />
+            </LinearLayout>
+
+            <!--Bibliophile-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/bibli"
+                    /><!-- android:src="@drawable/bibli"-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A four day literary gala that is sure to wake the dormant bookworm in you.Reading,writing,speaking,debating-if it falls under diverse umbrella of literature,Bibliophile covers it!"
+                    android:id="@+id/bib"
+                    android:layout_marginTop="20dp"
+
+                    />
+            </LinearLayout>
+
+            <!--Spectacle-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/spectacle"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A pop-culture trivia based 3-day event comprising a questionnaire round followed by a debate ending in a grand final game show.Section based event with points based on audience support!"
+                    android:id="@+id/spec"
+                    android:layout_marginTop="20dp"
+
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+            <!--Powerplay-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/pp"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="It is a cricket themed extravaganza in which contestants get to represent and manage their cricket franchise. A 3-day event starting with virtual auctions,buying sponsorships and much more!"
+                    android:id="@+id/pow"
+                    android:layout_marginTop="20dp"
+
+                    />
+
+            </LinearLayout>
+
+            <!--Tronix workshops-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/tronix"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Elaborate session introducing the juniors to the basics of the exciting world of electronics and enlightening them on the diverse uses and operations of 555 timer.A great insight and guiding path into the amazing electronic world!"
+                    android:id="@+id/tronix"
+                    android:layout_marginTop="20dp"
+
+                    />
+
+            </LinearLayout>
+
+
+            <!--Crysis-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/cry"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:id="@+id/crysis"
+                    android:layout_marginTop="20dp"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -29,6 +29,26 @@
             android:name=".MainActivity2Activity"
             android:label="@string/title_activity_main_activity2" >
         </activity>
+
+        <activity
+            android:name=".Blog"
+            android:label="@string/title_activity_blog" >
+            <intent-filter>
+                <action android:name="com.example.divi.sig.Blog" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Events"
+            android:label="@string/title_activity_events" >
+        </activity>
+        <intent-filter>
+            <action android:name="com.example.divi.sig.Events" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
     </application>
 
 </manifest>
